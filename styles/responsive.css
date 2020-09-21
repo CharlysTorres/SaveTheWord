@@ -1,0 +1,338 @@
+@media(max-width: 1024px) {
+    #page-home {
+        background-position: 18vw bottom;
+    }
+}
+
+@media (max-width: 900px) {
+    /*PAGE-HOME*/
+    #page-home {
+        background-position-x: 90vw;
+    }
+
+    #page-home .content {
+        align-items: center;
+        text-align: center;
+    }
+
+    #page-home header a {
+        position: absolute;
+        bottom: 48px;
+        
+
+        left: 50%;
+        transform: translateX(-50%)
+    }
+
+    #page-home main {
+        align-items: center;
+    }
+
+    #page-home main h1 {
+        font-size: 34px;
+    }
+    
+    #page-home main p {
+        font-size: 18px;
+    }
+    /*PAGE-SEARCH-RESULT*/
+    #page-search-results .cards {
+        grid-template-columns: 1fr;
+    }
+
+    #page-search-results .cards img {
+        height: 200px;
+    }
+
+    /*PAGE-CREATE-POINT*/
+    #page-create-point .items-grid {
+        grid-template-columns: 1fr;
+    }
+
+    #page-create-point form button {
+        width: 315px;
+        font-size: 14px;
+        font-weight: bold;
+    }
+
+    #page-create-point 
+    form input,
+    form select {
+        width: 320px;
+    }
+    
+    #page-create-point form .field-group {
+        display: block;
+    }
+
+    #page-create-point form .field-group .field + .field {
+        margin-left: 0;
+    }
+
+    /*PAGE SIGNUP*/
+    #page-signup form button {
+        width: 315px;
+        font-size: 14px;
+        font-weight: bold;
+    }
+
+    #page-signup 
+    form input,
+    form select {
+        width: 520px;
+    }
+    
+    #page-signup form .field-group {
+        display: block;
+    }
+
+    #page-signup form .field-group .field + .field {
+        margin-left: 0;
+    }
+}
+
+@media (max-width: 780px) {
+    #page-home {
+        background: none;
+    }
+}
+
+@media (max-width: 480px) {
+    /*PAGE HOME*/
+    #page-home {
+        background: none;
+    }
+    /*PAGE CREATE POINT*/
+    #page-create-point form button {
+        width: 210px;
+        font-size: 14px;
+        font-weight: bold;
+    }
+
+    #page-create-point form {
+        padding: 44px;
+    }
+
+    #page-create-point 
+    form input,
+    form select {
+        width: 250px;
+    }
+    
+    #page-create-point form .field-group {
+        display: block;
+    }
+
+    #page-create-point form .field-group .field + .field {
+        margin-left: 0;
+    }
+    /*PAGE SIGNUP*/
+    #page-signup form button {
+        width: 210px;
+        font-size: 14px;
+        font-weight: bold;
+    }
+
+    #page-signup form {
+        padding: 44px;
+    }
+
+    #page-signup 
+    form input,
+    form select {
+        width: 250px;
+    }
+    
+    #page-signup form .field-group {
+        display: block;
+    }
+
+    #page-signup form .field-group .field + .field {
+        margin-left: 0;
+    }
+    /*PAGE LOGIN*/
+    #page-login {
+        background: none;
+    }
+
+    /*PAGE-PROFILE*/
+    #page-profile .content {
+        padding: 0 15px;
+        margin: 16px auto;
+    }
+    #page-profile header img {
+        height: 24px;
+    }
+
+    #page-profile header span {
+        font-size: 12px;
+    }
+
+    #page-profile header a {
+        height: 30px;
+        font-size: 8px;
+    }
+
+    #page-profile header button img {
+        width: 12px;
+        height: 12px;
+    }
+
+    #page-profile header button {
+        width: 40px;
+        height: 32px;
+    }
+
+    #page-profile h1 {
+        font-size: 18px;
+        margin-top: 30px;
+    }
+
+    #page-profile ul {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    #page-profile ul li button {
+        top: 18px;
+        right: 18px;
+    }
+}
+
+@media(max-width: 320px) {
+    #page-home main h1 {
+        font-size: 24px;
+    }
+    
+    #page-home header a {
+        position: absolute;
+        bottom: 18px;
+
+        align-items: center;
+
+        font-size: 14px;
+        
+
+        left: 50%;
+        transform: translateX(-50%)
+    }
+
+    #page-login header a {
+        position: absolute;
+        bottom: 18px;
+
+        align-items: center;
+
+        font-size: 14px;
+        
+
+        left: 50%;
+        transform: translateX(-50%)
+    }
+}
+
+@media (min-width: 1700px) {
+    #page-home {
+        background-position-x: 40vw;
+    }
+}
+
+@media ( max-height: 1366px ) {
+    #page-home {
+        background-position: 30vw;
+        background-size: 70%;
+        
+    }
+}
+
+@media ( max-height: 1024px ) {
+    #page-login {
+        background-size: 50%;
+    }
+}
+
+@media ( max-height: 760px) {
+    #page-home {
+        background-position: 30vw bottom;
+        background-size: 70%;
+    }
+
+    #page-home main h1 {
+        font-size: 34px;
+    }
+
+    #page-home main p {
+        font-size: 16px;
+    }
+}
+
+@media ( max-height: 640px ) {
+    #page-home {
+        background-position-x: 90vw;
+    }
+}
+
+@media ( max-height: 540px ) {
+    #page-home {
+        background-position: 30vw bottom; 
+    }
+
+    #page-home main h1 {
+        font-size: 28px;
+    }
+
+    #page-home main p {
+        font-size: 14px;
+    }
+
+    #page-home header a {
+        bottom: 8px;
+    }
+
+    #page-home main a {
+        margin-top: 18px;
+        height: 54px;
+    }
+
+    #page-home main a span {
+        width: 54px;
+        height: 54px;
+    }
+    /*PAGE-PROFILE*/
+    #page-profile .content {
+        padding: 0 15px;
+        margin: 16px auto;
+    }
+    #page-profile header img {
+        height: 24px;
+    }
+
+    #page-profile header span {
+        font-size: 12px;
+    }
+
+    #page-profile header a {
+        height: 30px;
+        width: 200px;
+        font-size: 12px;
+    }
+
+    #page-profile header button img {
+        width: 12px;
+        height: 12px;
+    }
+
+    #page-profile header button {
+        width: 40px;
+        height: 32px;
+    }
+
+    #page-profile h1 {
+        font-size: 18px;
+        margin-top: 30px;
+    }
+
+    #page-profile ul {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+}

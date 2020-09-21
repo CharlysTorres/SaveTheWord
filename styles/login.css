@@ -1,0 +1,114 @@
+#page-login header {
+    margin-top: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#page-login header a {
+    display: flex;
+    color: var(--title-color);
+    font-weight: bold;
+}
+
+#page-login header a span {
+    background-image: url('../assets/icons/arrow-left.svg');
+    margin-right: 16px;
+    display: flex;
+
+    width: 20px;
+    height: 20px;
+}
+
+#page-login {
+    height: 100vh;
+    background: url('../assets/icons/reciclando.svg') no-repeat;
+    background-position: 48vw center;
+}
+
+#page-login .content {
+    width: 90%;
+    max-width: 1100px;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+#page-login main {
+    max-width: 560px;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#page-login main form {
+    display: flex;
+    flex-direction: column;
+}
+
+#page-login main form h1 {
+    margin-bottom: 32px;
+}
+
+#page-login main form input {
+    width: 100%;
+    max-width: 360px;
+    height: 60px;
+    color: #333;
+    border: 1px solid #dcdce6;
+    border-radius: 8px;
+    padding: 0 24px;
+    margin-bottom: 14px;
+}
+
+#page-login main form input + input {
+    margin-bottom: 0;
+}
+
+.button {
+    width: 100%;
+    max-width: 360px;
+    height: 60px;
+    background: var(--primary-color);
+    border: 0;
+    border-radius: 8px;
+    color: #FFF;
+    font-weight: bold;
+    margin-top: 16px;
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 60px;
+    transition: filter 0.2s;
+}
+
+.button:hover {
+    filter: brightness(90%);
+}
+
+#page-login main a {
+    display: flex;
+    align-items: center;
+    margin-top: 40px;
+    color: #41414d;
+    font-size: 18px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: opacity 0.2s;
+}
+
+#page-login main a:hover {
+    opacity: 0.8;
+}
+
+#page-login main a span {
+    background-image: url('../assets/icons/log-in.svg');
+    margin-right: 16px;
+    display: flex;
+
+    width: 20px;
+    height: 20px;
+}

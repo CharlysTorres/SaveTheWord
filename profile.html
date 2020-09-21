@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/main.css">
+    <link rel="stylesheet" href="./styles/profile.css">
+    <link rel="stylesheet" href="./styles/responsive.css">
+    <script src="https://kit.fontawesome.com/239b24b052.js" crossorigin="anonymous"></script>
+
+    <title>Profile</title>
+</head>
+<body>
+    <div id="page-profile">
+        <div class="content">
+            <header>
+                <img src="./assets/icons/logo.svg" alt="SaveTheWord">
+                <strong>Bem Vindo, Paperside</strong>
+
+                <a href="create-point.html">Cadastrar Ponto</a>
+                
+                <button title="logout"><img src="./assets/icons/logout.svg" alt="" srcset=""></button>
+            </header>
+
+            <h1>Pontos Cadastrados</h1>
+
+            <ul>
+                <li>
+                    <img src="" alt="">
+                    <strong>Nome do Ponto</strong>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia iste ducimus dolore nesciunt atque!</p>
+                    <h5>Vitória de Santo Antão</h5>
+                    <h6>Pernambuco</h6>
+                    
+                    <button class="trash"><i class="far fa-trash-alt" aria-hidden="true"></i></button>
+                </li>
+
+                <li>
+                    <img src="" alt="">
+                    <strong>Nome do Ponto</strong>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia iste ducimus dolore nesciunt atque!</p>
+                    <h5>Vitória de Santo Antão</h5>
+                    <h6>Pernambuco</h6>
+                    
+                    <button class="trash"><i class="far fa-trash-alt" aria-hidden="true"></i></button>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- <script type="text/javascript" src="./scripts/effects.js"></script> -->
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script>
+        $(document).ready(function() {
+            $('.like').click(function() {
+                $(this).toggleClass("heart");
+            })
+        })
+        $(document).ready(function() {
+            $('.trash').click(function() {
+                $(this).toggleClass("trashing");
+            })
+        })
+    </script>
+</body>
+</html>
